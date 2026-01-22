@@ -64,16 +64,6 @@ CONFIG IS STORED LOCALLY IN `conf.json`.
 
 ---
 
-## FILE STRUCTURE
-
-AUDIX/
-├─ audix.py
-├─ requirements.txt
-├─ conf.json
-├─ README.md
-├─ LICENSE
-
----
 
 ## LICENSE
 
