@@ -1,0 +1,49 @@
+<svg width="700" height="220" viewBox="0 0 700 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Smooth RGB flowing gradient -->
+    <linearGradient id="rgbFlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff0055">
+        <animate attributeName="stop-color"
+          values="#ff0055;#ffcc00;#00ffcc;#0066ff;#aa00ff;#ff0055"
+          dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#00ffcc">
+        <animate attributeName="stop-color"
+          values="#00ffcc;#0066ff;#aa00ff;#ff0055;#ffcc00;#00ffcc"
+          dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#aa00ff">
+        <animate attributeName="stop-color"
+          values="#aa00ff;#ff0055;#ffcc00;#00ffcc;#0066ff;#aa00ff"
+          dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Soft neon glow -->
+    <filter id="neonGlow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="700" height="220" fill="#050505"/>
+
+  <!-- AUDIX text -->
+  <text
+    x="50%"
+    y="50%"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    font-size="110"
+    font-family="Montserrat, Poppins, Segoe UI, Arial, sans-serif"
+    font-weight="900"
+    letter-spacing="10"
+    fill="url(#rgbFlow)"
+    filter="url(#neonGlow)">
+    AUDIX
+  </text>
+</svg>
