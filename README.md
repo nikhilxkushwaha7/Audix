@@ -1,6 +1,6 @@
 # AUDIX
 <p align="center">
-  <img src="https://github.com/nikhilxkushwaha7/Audix/blob/1ede83409c4818c187af18703e36ed602e4b072e/pics/img">
+  <img src="https://ibb.co/QvXtxvDY">
 </p>
 
 CLI AUDIO DOWNLOADER
