@@ -1,7 +1,4 @@
 # AUDIX
-<p align="center">
-  <img src="https://ibb.co/QvXtxvDY">
-</p>
 
 CLI AUDIO DOWNLOADER
 
