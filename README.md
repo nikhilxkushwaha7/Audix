@@ -1,95 +1,107 @@
-# AUDIX
+<div align="center">
+  <h1>🎵 Audix</h1>
+  <p><b>A fast, clean, and professional command-line audio downloader built using Python and yt-dlp.</b></p>
+  
+  [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
+  [![License](https://img.shields.io/badge/license-Available-blue.svg)](#-license)
+</div>
 
-CLI AUDIO DOWNLOADER
+<br/>
 
----
-
-## DESCRIPTION
-
-AUDIX IS A FAST, CLEAN, AND PROFESSIONAL COMMAND-LINE AUDIO DOWNLOADER BUILT USING PYTHON AND YT-DLP.
-IT PROVIDES A MINIMAL, DISTRACTION-FREE CLI EXPERIENCE FOR SEARCHING AND DOWNLOADING HIGH-QUALITY AUDIO FROM YOUTUBE WITH PRECISE USER CONTROL.
-
----
-
-## FEATURES
-
-- YOUTUBE SEARCH WITH MULTIPLE SELECTABLE RESULTS
-- PAGINATED SEARCH RESULTS (6 RESULTS PER PAGE)
-- REAL-TIME SYNCED DOWNLOAD PROGRESS BAR
-- HIGH-QUALITY MP3 AUDIO DOWNLOAD (128 / 192 / 320 KBPS)
-- INITIAL SETUP FOR DOWNLOAD PATH AND AUDIO QUALITY
-- RECONFIGURE SETUP OPTION AVAILABLE ANYTIME
-- CROSS-PLATFORM SUPPORT (WINDOWS, LINUX, MACOS)
+Audix provides a minimal, distraction-free CLI experience for searching and downloading high-quality audio from YouTube with precise user control.
 
 ---
 
-## REQUIREMENTS
+## ✨ Features
 
-- PYTHON 3.9 OR NEWER
-- FFMPEG INSTALLED AND AVAILABLE IN SYSTEM PATH
-- INTERNET CONNECTION
+- 🔍 **YouTube Search**: Interactive searching with multiple selectable results.
+- 📄 **Paginated Results**: Easy navigation with 6 results per page.
+- 📊 **Live Progress Bar**: Real-time synced download progress bar for a seamless experience.
+- 🎧 **High Quality**: Choose your preferred MP3 audio quality (`128` / `192` / `320` kbps).
+- ⚙️ **Easy Configuration**: One-time initial setup for download path and audio quality, which can be reconfigured at any time.
+- 💻 **Cross-Platform**: Works smoothly on Windows, Linux, and macOS.
 
 ---
 
-## INSTALLATION
+## 📋 Prerequisites
 
-1. CLONE THE REPOSITORY OR DOWNLOAD THE RELEASE PACKAGE
-2. INSTALL DEPENDENCIES:
+Before you begin, ensure you have met the following requirements:
 
+- **Python 3.9** or newer: [Download Python](https://www.python.org/downloads/)
+- **FFmpeg**: Must be installed and available in your system's PATH. [Download FFmpeg](https://ffmpeg.org/download.html)
+- **Internet Connection**: Required for searching and downloading audio data.
+
+---
+
+## 🚀 Installation & Usage
+
+1. **Clone the repository** (or download the source code):
+   ```bash
+   git clone https://github.com/your-username/Audix.git
+   cd Audix/Audix
+   ```
+   *(If you downloaded the code as a ZIP file, extract it and navigate via terminal to the inner folder where `audix.py` is located).*
+
+2. **Install the required dependencies** (`yt-dlp` and `colorama`):
+   ```bash
    pip install -r requirements.txt
+   ```
 
-3. RUN AUDIX:
-
+3. **Run Audix**:
+   ```bash
    python audix.py
+   ```
 
 ---
 
-## FIRST RUN SETUP
+## 🛠️ First Run Setup
 
-ON FIRST LAUNCH, AUDIX WILL PROMPT YOU TO:
+On the first launch, Audix will prompt you to set up your preferences:
+1. **Download Path**: Type the directory path where you want to save downloaded music.
+2. **Audio Quality**: Select your preferred quality (`128`, `192`, or `320` kbps).
 
-- TYPE THE PATH WHERE YOU WANT TO SAVE DOWNLOADED MUSIC
-- SELECT AUDIO QUALITY (128 / 192 / 320 KBPS)
-
-THE CONFIGURATION IS SAVED LOCALLY AND USED FOR ALL FUTURE DOWNLOADS.
-
----
-
-## USAGE
-
-1. LAUNCH AUDIX FROM TERMINAL
-2. SELECT "DOWNLOAD AUDIO"
-3. ENTER SONG NAME
-4. BROWSE AND SELECT FROM SEARCH RESULTS
-5. AUDIO WILL BE DOWNLOADED TO THE CONFIGURED PATH
+The configuration is saved locally in `conf.json` and automatically used for all future downloads.
 
 ---
 
-## RECONFIGURE SETUP
+## 🎮 How to Use
 
-AT ANY TIME, USERS CAN SELECT "RECONFIGURE SETUP" FROM THE MAIN MENU TO:
-
-- CHANGE DOWNLOAD PATH
-- CHANGE AUDIO QUALITY
-
-CONFIGURATION IS STORED LOCALLY IN `conf.json`.
-
----
-
-## LICENSE
-
-SEE THE LICENSE FILE FOR FULL USAGE TERMS AND RESTRICTIONS.
+1. Launch Audix from your terminal using `python audix.py`.
+2. Select **"1. DOWNLOAD AUDIO"** from the main menu.
+3. Enter the name of the song or audio you want to search for.
+4. Browse the paginated results (use `N` for the next page, `B` to go back) and select your desired track by entering its number.
+5. Watch the live progress bar as the audio is downloaded directly to your configured path!
 
 ---
 
-## DISCLAIMER
+## ⚙️ Reconfigure Setup
 
-THIS TOOL IS INTENDED FOR PERSONAL AND EDUCATIONAL USE ONLY.
-DOWNLOADED CONTENT REMAINS THE PROPERTY OF ITS RESPECTIVE OWNERS.
-USERS ARE RESPONSIBLE FOR COMPLYING WITH LOCAL LAWS AND PLATFORM TERMS.
+At any time, you can select **"2. RECONFIGURE SETUP"** from the main menu to alter:
+- Your default download path.
+- Your default audio extraction quality.
+
+*(Note: Configuration changes are instantly saved and applied).*
 
 ---
 
-## AUTHOR
+## 📜 License
 
-NIKHIL KUSHWAHA
+See the `LICENSE` file for full usage terms and restrictions.
+
+---
+
+## ⚠️ Disclaimer
+
+This tool is intended for **personal and educational use only**. 
+Downloaded content remains the property of its respective owners. Users are responsible for complying with local laws and platform terms of service.
+
+---
+
+## 🧑‍💻 Author
+
+**Nikhil Kushwaha**
+
+---
+<div align="center">
+  <i>Made with ❤️ for music and the command line.</i>
+</div>
