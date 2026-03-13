@@ -37,7 +37,7 @@ Before you begin, ensure you have met the following requirements:
 
 1. **Clone the repository** (or download the source code):
    ```bash
-   git clone https://github.com/your-username/Audix.git
+   git clone https://github.com/nikhilxkushwaha7/Audix.git
    cd Audix/Audix
    ```
    *(If you downloaded the code as a ZIP file, extract it and navigate via terminal to the inner folder where `audix.py` is located).*
